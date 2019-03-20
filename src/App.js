@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+//import routes from './routes.js';
 
 class App extends Component {
   render() {
@@ -9,15 +10,14 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Auth0 Login Test App
           </p>
           <a
             className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
+            href="/home"
             rel="noopener noreferrer"
           >
-            Learn React
+            Log In
           </a>
         </header>
       </div>
